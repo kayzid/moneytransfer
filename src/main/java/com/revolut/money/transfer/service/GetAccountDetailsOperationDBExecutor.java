@@ -55,4 +55,8 @@ private static final Logger log=LoggerFactory.getLogger(GetAccountDetailsOperati
 		
 	}
 
+	public void setAccountRepository(AccountRepository accountRepository) {
+		this.accountRepository = accountRepository;
+	}
+
 }

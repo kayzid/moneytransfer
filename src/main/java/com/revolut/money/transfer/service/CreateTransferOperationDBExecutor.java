@@ -173,4 +173,8 @@ public class CreateTransferOperationDBExecutor implements DBOperationExecutor<Tr
 		}
 	}
 
+	public void setAccountRepository(AccountRepository accountRepository) {
+		this.accountRepository = accountRepository;
+	}
+
 }
