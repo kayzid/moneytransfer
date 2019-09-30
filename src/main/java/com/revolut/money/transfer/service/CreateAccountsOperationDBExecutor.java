@@ -65,4 +65,8 @@ public class CreateAccountsOperationDBExecutor implements DBOperationExecutor<Ac
 		
 	}
 
+	public void setAccountRepository(AccountRepository accountRepository) {
+		this.accountRepository = accountRepository;
+	}
+
 }
